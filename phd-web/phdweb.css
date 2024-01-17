@@ -1,0 +1,495 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  /* display: flex; */
+  background-color: white;
+  color: black;
+}
+
+ul,
+li {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(247, 245, 241);
+
+  line-height: 50px;
+  padding: 10px;
+  gap: -30px;
+
+}
+
+ul,
+li,
+a {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(247, 245, 241);
+  font-weight: bold;
+
+
+  /* padding: 4px 37px; */
+
+}
+
+header {
+  background-color: rgb(247, 245, 241);
+  ;
+}
+
+.text-1 {
+  font-size: 28px;
+  padding-left: 105px;
+}
+
+.btn-1 {
+  height: 40px;
+  width: 100px;
+  background-color: orangered;
+  font-weight: bold;
+}
+
+.img-1 {
+  margin-top: -300px;
+  margin-left: 50%;
+}
+
+/* --------------------------page-2 start here-------------- */
+.imges {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.i-1 {}
+
+.i-2 {
+  padding-top: 60px;
+}
+
+.i-3 {
+  padding-top: 40px;
+}
+
+.imges h2 {
+  text-align: center;
+}
+
+/* --------------------------page-3 start here--------------- */
+.page-3 {
+  background-color: rgb(247, 245, 241);
+}
+
+.text-3 h2 {
+  margin-left: 53%;
+  margin-top: -39%;
+  font-size: 55px;
+}
+
+.text-3 p {
+  margin-left: 53%;
+  margin-top: 5%;
+  font-size: 20px;
+}
+
+.text-3 img {
+  margin-top: 10%;
+}
+
+.t-3 {
+  margin-left: 53%;
+  text-decoration: underline;
+}
+
+/* -------------------------page-3 close here------------------- */
+
+
+/* -------------page-4 start here---------------------- */
+.text-4 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.image-4 {
+  margin-top: 50px;
+  margin-left: 540px;
+  display: flex;
+  justify-content: space-around;
+  gap: 350px;
+}
+
+.ph-1img {
+  height: 329px;
+  width: 100px;
+}
+
+.p-text {
+  margin-top: 10px;
+}
+
+.ph-1 {
+  display: flex;
+  height: 390px;
+}
+
+.ph-1text {
+  font-size: 15px;
+  text-align: center;
+  text-align: left;
+  margin-left: 142px;
+  margin-top: 40px;
+  background-color: white;
+  margin-top: 0px;
+  height: 311px;
+  width: 100%;
+}
+
+.ph-1text h2 {
+  margin-top: 40px;
+  font-size: 25px;
+}
+
+.btn-4 {
+  margin-top: 20px;
+  border: 1px solid black;
+  background-color: orangered;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  height: 29px;
+  width: 108px;
+}
+
+/* .text-4 {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.ph-1 {
+    margin-left: -75%;
+}
+
+.tx-1 {
+    background-color: white;
+    height: 312px;
+    width: 18%;
+    text-align: start;
+    padding-top: 44px;
+    padding-left: 21px;
+    line-height: 20px;
+    margin-left: 290px;
+    margin-top: -315px;
+}
+
+.btn-4 {
+    height: 34px;
+    width: 46%;
+    background-color: orangered;
+}
+
+/* ------img-1 close here-- */
+/* .ph-2 {
+    margin-right: 0%;
+    margin-top: -311px;
+}
+
+.tx-2 {
+    background-color: white;
+    height: 312px;
+    width: 18%;
+    text-align: start;
+    padding-top: 44px;
+    padding-left: 21px;
+    margin-left: 793px;
+    margin-top: -315px;
+}
+
+.btn4 {
+    height: 34px;
+    width: 46%;
+    background-color: orangered;
+} */
+
+/* ----------img-2 close here---- */
+/* .ph-3 {
+    margin-left: 993px;
+    margin-top: -312px;
+    opacity: 3px;
+}  */
+/* ----------------------page-5 start here------------- */
+.store {
+  text-align: center;
+}
+
+.store-box {
+  margin-left: 27px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.box1-store {
+  text-align: center;
+  /* width: 250px; */
+  height: 488px;
+  position: relative;
+  /* background-color: aqua; */
+}
+.store-box img{
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.store-text {
+  margin-top: 40px;
+  margin-left: 22px;
+}
+
+.orenge {
+  position: absolute;
+  top: 257px;
+  right: 98px;
+  height: 43px;
+  background-color: orange;
+  width: 118px;
+}
+
+/* .store {
+  text-align: center;
+  margin-top: 40px;
+  font-weight: bold;
+
+}
+
+.top img {
+  height: 220px;
+  width: 20%;
+
+}
+
+.store-box img {
+  margin-top: 4%;
+  
+
+} */
+
+/* .bottom {
+  background-color: white;
+  height: 220px;
+  width: 20%;
+  text-align: center;
+  margin-top: -4px;
+  margin-left: 10%;
+
+
+
+
+} */
+
+/* .bottom h2 {
+  border: 1px solid black;
+  background-color: yellowgreen;
+  height: 50px;
+  width: 50%;
+  top: 25px;
+  margin: 0 auto;
+  padding-left: x;
+
+}
+
+.bn-1 {
+  height: 30px;
+  width: 35%;
+  background-color: orange;
+  border: 1px solid black;
+  margin-top: 30px;
+} */
+
+/* --------------first-img complet------------- */
+/* .store-box-2 {
+  margin-left: 38%;
+  margin-top: -33%;
+}
+
+.top-2 img {
+  height: 220px;
+  width: 35%;
+}
+
+.bottom-2 {
+  background-color: white;
+  height: 221px;
+  width: 35%;
+  text-align: center;
+  margin-top: -4px;
+
+}
+
+.bottom-2 h2 {
+  border: 1px solid black;
+  background-color: yellowgreen;
+  height: 50px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.bn-2 {
+  height: 30px;
+  width: 35%;
+  background-color: orange;
+  border: 1px solid black;
+  margin-top: 30px;
+
+}
+
+
+
+/* ---------------sec-img complted--------- */
+/* .store-box-3 {
+  margin-left: 71%;
+  margin-top: -33%;
+}
+
+.top-3 img {
+  height: 220px;
+  width: 70%;
+}
+
+.bottom-3 {
+  background-color: white;
+  height: 221px;
+  width: 70%;
+  text-align: center;
+  margin-top: -4px;
+
+} */
+
+/* .bottom-3 h2 {
+  border: 1px solid black;
+  background-color: yellowgreen;
+  height: 50px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.bn-3 {
+  height: 30px;
+  width: 35%;
+  background-color: orange;
+  border: 1px solid black;
+  margin-top: 30px;
+
+} */
+*/
+/* -----------------page-5 close here------------------- */
+
+/* -------------------page-6 start here----------------------------- */
+.left-p {
+  margin-top: 10%;
+
+}
+
+.teb {
+  /* height: 50px; */
+  /* width: 50%; */
+  margin-bottom: 11%;
+  margin-left: -319px;
+}
+
+.right-item {
+  margin-left: 50%;
+  margin-top: -20%;
+}
+
+.right-item h1 {
+  font-size: 3.205rem;
+}
+
+.right-item p {
+  font-size: 23px;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 70%;
+  gap: 48px;
+}
+
+/* -------------------------page-6 close here------------------ */
+
+
+/* --------------------page-7 start here--------------------------------------- */
+.map {
+  margin-top: 10%;
+}
+
+.right-text {
+  margin-left: 46%;
+  margin-top: -29%;
+}
+
+.right-text h1 {
+  font-size: 55px;
+}
+
+input {
+  height: 43px;
+  width: 53%;
+}
+
+#msg {
+  height: 100px;
+}
+
+.btn-7 {
+  height: 30px;
+  width: 20%;
+  border: 1px solid black;
+  background-color: yellow;
+}
+
+/* -------------------page-7 close here---------------------- */
+
+/* -------------footer start here------------------------ */
+.footer {
+
+  background-color: rgb(255, 123, 0);
+  padding: 10px;
+  width: 100%;
+  height: 350px;
+}
+
+.big-img img {
+  margin-top: 100px;
+}
+
+.left {
+  margin-left: 160px;
+  margin-top: -172px;
+}
+
+.f-text {
+  margin-left: -22%;
+  margin-top: 207px;
+  font-size: 25px;
+}
+
+.f-text-2 {
+  margin-left: 4%;
+  margin-top: -208px;
+  font-size: 25px;
+}
+
+.f-text-3 {
+  margin-left: 45%;
+  margin-top: -28%;
+  font-size: 25px;
+}
+
+.f-last {
+  margin-left: 83%;
+  margin-top: -15%;
+}
