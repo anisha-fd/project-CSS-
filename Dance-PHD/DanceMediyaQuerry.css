@@ -1,0 +1,53 @@
+@media(max-width:768px) {
+    .header {
+        background-image: url(../image/background-img.png);
+        height: 700px;
+        width: 1200px;
+    }
+
+    .title {
+        width: 45%;
+        margin-inline: 2.7%;
+        margin-top: 170px;
+    }
+
+    .title h1 {
+        font-size: 3.0203px;
+        color: white;
+    }
+
+    .title p {
+        font-size: 2.0203rem;
+        color: white;
+    }
+
+    .orenge {
+        width: 20%;
+        height: 40px;
+        background-color: orangered;
+        font-weight: bold;
+    }
+
+    #page-2 {
+        background-color: orangered;
+        height: 550px;
+        width: 1348px;
+
+    }
+
+    #page-3 {
+        padding-top: 20px;
+        text-align: center;
+        background-color: black;
+        color: white;
+        height: 550px;
+        width: 1348px;
+
+    }
+
+    #page-3 h1 {
+        font-size: 40px;
+    }
+}
+
+

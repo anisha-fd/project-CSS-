@@ -70,7 +70,7 @@ nav{
     line-height: 21px;
 }
 .slider{
-    width: 50%;
+    width: 100%;
     height: 600px;
     background-color: aquamarine;
     background-color: 5px solid black;
@@ -79,7 +79,7 @@ nav{
 
 }
 .slide{
-    width: 50%;
+    width: 100%;
     height: 600px;
     position: absolute;
     top: 0;
@@ -99,18 +99,18 @@ nav{
 
 }
 .slide:nth-child(1){
-    background: url(../video-image\ \(1\).jpg)no-repeat center center/cover;
+    background: url(../BCCI-WEB/IMAGE/video-image\ \(1\).jpg)no-repeat center center/cover;
 }
 .slide:nth-child(2){
-    background: url(../video-image\ \(2\).jpg)no-repeat center center/cover;
+    background: url(../BCCI-WEB/IMAGE/video-image\ \(2\).jpg)no-repeat center center/cover;
     animation-delay: 5s;
 }
 .slide:nth-child(3){
-    background: url(../video-image\ \(3\).jpg)no-repeat center center/cover;
+    background: url(../BCCI-WEB/IMAGE/video-image\ \(3\).jpg)no-repeat center center/cover;
     animation-delay: 10s;
 }
 .slide:nth-child(4){
-    background: url(../video-image\ \(4\).jpg)no-repeat center center/cover;
+    background: url(../BCCI-WEB/IMAGE/video-image\ \(4\).jpg)no-repeat center center/cover;
     animation-delay: 15s;
 }
 @keyframes fade{

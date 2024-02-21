@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfoli</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            list-style: none;
+
+        }
+
+        .wrepper {
+            background: url(../Portfolio/bg-2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 600px;
+            width: 100%;
+            /* object-fit: contain; */
+            background-attachment: fixed;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: transparent;
+            height: 65px;
+            padding: 20px;
+            color: white;
+            /* position: fixed; */
+            width: 100%;
+
+
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            gap: 70px;
+            /* text-decoration: underline; */
+            padding-top: 10px;
+            font-weight: bold;
+            font-size: 20px;
+
+        }
+
+        ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        ul li a:hover {
+            background-color: cyan;
+            box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+        }
+
+
+        .logo {
+            font-size: 30px;
+            padding-top: 0px;
+            font-weight: bold;
+        }
+
+        #Home {
+            padding-top: 300px;
+            font-size: 25px;
+            margin-left: 50px;
+        }
+
+        .b-1 {
+            height: 45px;
+            width: 20%;
+            background-color: rgb(108, 124, 214);
+            border-radius: 20px;
+            color: white;
+            font-size: 18px;
+            border: 2px solid black;
+        }
+
+        .b-1 a {
+            color: white;
+            text-decoration: none;
+            
+        }
+
+        .b-1 a:hover {
+            box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+        }
+
+        .text-1 {
+            color: white;
+            margin-left: 30px;
+            margin-top: -104px;
+            margin-left: 84px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        /* -----------page-1--- */
+        #ABOUT {
+            background-color: black;
+            color: white;
+            height: 550px;
+            width: 100%;
+        }
+
+        #ABOUT h1 {
+            padding-top: 40px;
+            text-align: center;
+            font-size: 50px;
+            color: white;
+            /* background-color:rgb(108, 124, 214) ; */
+        }
+
+        .content {
+            /* padding-top: 35px; */
+            margin-top: 10px;
+            height: 400px;
+            width: 80%;
+            background-color: white;
+            box-shadow: 30px;
+            margin-left: 10%;
+            border-radius: 20px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .con-1 {
+            color: black;
+            padding-top: 30px;
+            margin-left: 20px;
+            font-size: 25px;
+        }
+
+        .con-2 {
+            color: black;
+            padding-top: 30px;
+            font-size: 20px;
+            font-weight: 500;
+        }
+        /* ----------page-3 */
+        #SKILL{
+            height: 650px;
+            
+        }
+        #SKILL h1{
+            text-align: center;
+            padding-top: 40px;
+            font-size: 50px;
+
+        }
+        .contain-1{
+            margin-top: 10px;
+            height: 500px;
+            width: 80%;
+            background-color: black;
+            color: white;
+            margin-left: 10%;
+            border-radius: 20px;
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.30),0 10px 10px rgba(0, 0, 0, 0.25);
+
+
+        }
+        #SKILL li{
+            margin: 30px;
+            font-size: 25px;
+            padding-top: 15px;
+        }
+        .bar{
+            background: #353b48;
+            display: block;
+            height: 20px;
+            border: 1px solid(0,0,0,0.3);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),0 1px 2px rgba(0, 0, 0, 0.24);
+            transition: all 0.3s cubic-bezier(.25,.8,.25,.1);
+        }
+        .bar:hover{
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),0 10px 10px rgba(0, 0, 0, 0.22);
+        }
+        .bar span{
+            height: 20px;
+            float: left;
+            background: linear-gradient(135deg,rgb(38, 93, 175)0%,rgb(106, 163, 228)100%);
+        }
+        .html{
+            width: 75%;
+            animation: html 3s;
+        }
+        .css{
+            width: 60%;
+            animation: css 3s;
+        }
+        .javascript{
+             width: 50%;
+             animation: javascript 3s;
+        }
+        .Jquery{
+                width: 80%;
+                animation: Jquery 3s;
+        }
+        .bootstrep{
+              width: 60%;
+              animation:bootstrep 3s ;
+        }
+        @keyframes html{
+            0%{
+                width: 0%;
+            }
+            100%{
+                width: 75%;
+            }
+        }
+        @keyframes css{
+            0%{
+                width: 0%;
+            }
+            100%{
+                width: 60%;
+            }
+        }
+        @keyframes javascript {
+            0%{
+                width: 0%;
+            }
+            100%{
+                width: 50%;
+            }
+        }
+        @keyframes Jquery{
+            0%{
+                width: 0%;
+            }
+            100%{
+                width: 80%;
+            }
+        }
+        @keyframes bootstrep {
+            0%{
+                width: 0%;
+            }
+            100%{
+                width: 60%;
+            }
+        }
+        /* --------------page-3========== */
+        #PROJECT{
+            text-align: center;
+            height: 630px;
+            background-color: black;
+            color: white;
+            font-size: 25px;
+            padding-top: 30px;
+        }
+        .contain-2{
+            margin-top: 15px;
+            height: 500px;
+            width: 80%;
+            background-color: white;
+            margin-left: 10%;
+            border-radius: 20px;
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.30),0 10px 10px rgba(0, 0, 0, 0.25);
+
+
+        }
+        .coffi{
+            background-color: rgb(10, 10, 10);
+            width: 30%;
+        }
+        .con-3 img{
+            padding-top: 35px;
+            /* animation-timing-function: ease-in-out; */
+            /* transition-duration: 2s; */
+        }
+
+        .con-3:hover img{
+            /* transform: scale(1.1); */
+        }
+        .netflix{
+            animation-timing-function:ease-in-out ;
+            transition-duration: 2s;
+        }
+        .netflix:hover{
+            transform: scale(1.1);
+        }
+        .insta{
+            animation-timing-function: ease-in-out;
+            transition-duration: 2s;
+        }
+        .insta:hover{
+            transform: scale(1.1);
+        }
+        .coffi{
+            animation-timing-function: ease-in-out;
+            transition-duration: 2s;
+        }
+        .coffi:hover{
+            transform: scale(1.1);
+        }
+        .shushi{
+            background-color: black;
+            width: 35%;
+            animation-timing-function: ease-in-out;
+            transition-duration: 2s;
+        }
+        .shushi:hover{
+            transform: scale(1.1);
+        }
+        .burgur{
+            background-color: black;
+            height: 200px;
+            width: 35%;
+            animation-timing-function: ease-in-out;
+            transition-duration: 2s;
+        }
+        .burgur:hover{
+            transform: scale(1.1);
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="wrepper">
+            <div class="nav">
+                <nav>
+                    <div class="logo">ANISHA</div>
+                    <ul>
+                        <li><a href="#HOME">HOME</a></li>
+                        <li><a href="#ABOUT">ABOUT</a></li>
+                        <li><a href="#SKILL">SKILL</a></li>
+                        <li><a href="#PROJECT">PROJECT</a></li>
+                        <li><a href="#CONTACT">CONTACT</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+            <div id="Home">
+                <div class="text-1">
+                    <h1>Hi,I'm Anisha Solanki</h1>
+                    <h2>I'm a <b><span class="auto-input"> Frontend Developer</span></b></h2><br><br>
+                    <button class="b-1"><a href="ANISHA SOLANKI.pdf" target="_blank"> DOWNLODE CV</a></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div id="ABOUT">
+        <h1>About</h1>
+
+        <div class="content">
+            <div class="con-1">
+                <p><b>Name</b> : Anisha Solanki</p><br>
+                <p><b>City</b> : Ahemedabad</p><br>
+                <p><b>Phone No</b>: +9898069321 </p><br>
+                <p><b>Email Id</b>: anisha.solanki@gmail.com</p><br>
+                <p><b>Birthdate</b>: 2 March</p>
+            </div>
+            <div class="con-2">
+                <h2>About Me</h2><br>
+                <p>Hello, I'm Anisha and i work as a Web Developer.<br>I have been working as a web Developer for
+                    quite<br> some time
+                    now.I believe I am a very ambitious <br>person who loves to work on making the website<br> work
+                    well.Working on the web
+                    is my passion as<br> I love to work on exciting projects. </p>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+
+    <div id="SKILL">
+
+        <h1> My Skill</h1>
+
+        <div class="contain-1">
+
+            <li>
+                <h3>HTML</h3>
+                <span class="bar"><span class="html"></span></span>
+            </li>
+
+            <li>
+                <h3>CSS</h3>
+                <span class="bar"><span class="css"></span></span>
+            </li>
+
+            <li>
+                <h3>JAVASCRIPT</h3>
+                <span class="bar"><span class="javascript"></span></span>
+            </li>
+
+            <li>
+                <h3>JQUERY</h3>
+                <span class="bar"><span class="Jquery"></span></span>
+            </li>
+
+            <li>
+                <h3>BOOTSTREP</h3>
+                <span class="bar"><span class="bootstrep"></span></span>
+            </li>
+
+
+        </div>
+    </div>
+
+
+    <div id="PROJECT">
+
+        <h1>My project</h1>
+
+        <div class="contain-2">
+
+            <div class="con-3">
+                <a href="..//Portfolio/Netflix-Website/1netflix.html"><img src="../Portfolio/new-logo.jpg" height="200px" class="netflix"></a>
+                <a href="Instagram-page/09instagram.html"><img src="../Portfolio/insta-new.jpg" height="200px" class="insta"></a>
+                <a href="../Portfolio/phd-web/phdweb.html"><img src="../Portfolio/pic-1.png" height="165px" class="coffi"></a>
+                
+            </div>
+            <div class="con-4">
+                <a href="..//Portfolio/Shushi-PSD/Sushii.html"> <img src="../Portfolio/shushi-black.jpg" height="200px" class="shushi"></a>
+                <a href="..//Portfolio/Burger-PSD/Burger.html"><img src="../Portfolio/bg-black.jpg" height="180px" class="burgur"></a>
+                
+            </div>
+                
+       </div>
+
+        </div>
+
+
+    </div>
+
+
+    <div id="CONTACT">
+
+        <h1>Contact</h1>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+
+        let typed = new Typed('.auto-input',{
+            strings:['Frontend Developer!' ],
+            typeDpeed: 70,
+            backSpeed: 100,
+            backDelay: 2000,
+            loop: true,
+
+        })
+           
+    </script>
+
+<!-- 'Freelancer!' -->

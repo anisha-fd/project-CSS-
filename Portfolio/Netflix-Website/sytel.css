@@ -1,0 +1,302 @@
+
+        
+        .box{
+            background-image: linear-gradient(to top,rgba(0,0,0,0.8)0,rgba(0,0,0,0)60%,rgba(0,0,0,0.8)100%);
+            background-image: url(../Netflix-Website/PHOTOS/netflix\ image.jpg);
+            color: white;
+            height: 700px;
+            width: 100%;
+            
+         }
+         img{
+            display: flex;
+            /* height: 30px; */
+            /* width: 100px; */
+            /* padding: 20px; */
+            margin-left: 80px;
+            margin-top: 20px;
+
+         }  
+         .content{
+            
+            display: flex;
+            justify-content: space-between;
+         } 
+         .Box2{
+            
+            text-align: center;
+            font-size: xx-large;
+            
+         }
+         .Box2 input{
+            
+            height: 40px;
+            width: 300px;
+         }
+         #English{
+            
+            height: 38px;
+            width: 30%;
+           }
+         button{
+            background-color: red;
+            width: 150px;
+            height: 40px;
+            
+         }
+         .dropdown button{
+            height: 25px;
+            width: 120px;
+            background-color: black;
+            color: white;
+            
+            
+         }
+         .tv{
+            margin-top: 10px;
+         }
+         .mobile{
+            margin-top: 10px;
+         }
+         .apple-tv{
+            margin-top: 10px;
+         }
+         .cartoon{
+            margin-top: 10px;
+         }
+         table{
+            background-image: linear-gradient(to top,rgba(0,0,0,0.8)0,rgba(0,0,0,0)60%,rgba(0,0,0,0.8)100%);
+            background-color: black;
+            color: white;
+            height: 300px;
+            width: 100%;
+            padding: 5%;
+            margin: 0 auto;
+            font-size: 2.10rem;
+            
+         }
+         
+   
+         
+         .search{
+            margin-right: 50px;
+            margin-top: 30px;
+         } 
+         .page-6{
+            margin-top: 20px;
+            background-color: rgb(0,0,0);
+         }
+         .que{
+            margin-top: -12px;
+            text-align: center;
+            padding: 10px;
+            color: white;
+            font-size: 40px;
+
+         }
+         .sub-heading{
+            padding: 10px;
+            margin-left: 55px;
+            color: white;
+            font-size: 25px;
+         }
+         .email input{
+            margin-left: 250px;
+            height: 40px;
+            width: 20%;
+            
+         }
+         .text-1{
+            width: 72%;
+            margin: auto;
+         }
+         .text-1 details{
+            font-size: 21px;
+            margin-bottom: 9px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: white;
+            background-color: rgb(45, 45, 45);
+            padding: 27px;
+         }
+         .text-1 details>summary{
+            list-style: none;
+         }
+         .text-1 span{
+            font-size: 40px;
+            float: right;
+         }
+         .text-1 details:hover{
+            background-color: rgb(67,64,64);
+         }
+         .footer{
+            margin-top: 10px;
+            background-color: rgb(0, 0, 0);
+            padding-top: 9vh;
+            color: white;
+            font-size: 18px;
+            line-height: 2;
+         }
+         .footer-text{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+         }
+
+
+
+
+
+
+@media (max-width: 768px){
+   .box {
+      
+      color: white;
+      height: 700px;
+      width: 150%;
+  }
+  #English{
+   height: 38px;
+   width: 30%;
+  }
+  table{
+   width: 150%;
+  }
+  .m-image{
+   margin-left: -33px;
+  }
+  /* ------------apple tv strat here-------- */
+  .a-text{
+   font-size: 57px;
+   font-weight: 600;
+   width: -20px;
+ }
+ .apl-text{
+   font-size: 28px;
+   
+ }
+ /* ------apple tv page close here======== */
+
+ .cartoon-img{
+   margin-left: 20px;
+ }
+ .cartoon-text{
+   font-size: 48px;
+ }
+ .cartoon-p{
+   font-size: 21px;
+ }
+ /* =============cartton page close here============ */
+ .page-6{
+   width: 150%;
+ }
+ .sub-heading{
+   font-size: 20px;
+ }
+ .footer{
+   width: 150%;
+ }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media (max-width: 576px){
+   .box{
+
+      /* background-image: url(../Netflix-Website/PHOTOS/netflix\ image.jpg); */
+     
+      color: white;
+      height: 700px;
+      width: 199%;
+      
+   }
+   .content img{
+      width: 10%;
+      height: 70px;
+      font-size: 100px;
+   }
+ 
+   
+   .tv{
+      
+      flex-direction: column;
+   }
+   .t-text{
+      font-size: 39px;
+ }
+ .tv-ptext{
+    font-size: 34px;
+    font-weight: 400;
+ }
+ table{
+   width: 199%;
+
+ }
+ .m-image{
+   margin-left: 5px;
+ }
+ .m-text{
+   margin-left: -68px;
+   font-size: 39px;
+   width: -27px;
+ }
+ .p-text{
+   margin-left: -68px;
+   font-size: 26px;
+ }
+ /* -----------------moblie page close here---------- */
+
+ .a-text{
+   font-size: 41px;
+   font-weight: 600;
+   width: -20px;
+ }
+ .apl-text{
+   font-size: 28px;
+   
+ }
+ /*------------------ page-5 start here------------ */
+ .cartoon-img{
+   margin-left: 20px;
+ }
+ .cartoon-text{
+   font-size: 49px;
+ }
+ .cartoon-p{
+   font-size: 22px;
+ }
+ /* -----------------page-5 close here--------------- */
+ .page-6{
+   width: 199%;
+ }
+ .sub-heading{
+   font-size: 20px;
+ }
+ .footer{
+   width: 199%;
+ }
+  
+ }
+
+
+
+
+
+
+
+
+
+ 

@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>instagarm page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body{
+            background: linear-gradient(purple,orangered,teal,yellow);
+            height: 670px;
+        
+        }
+        .box{
+            background-color: rgb(237, 230, 243);
+            border: 2px solid black;
+            height: 480px;
+            width: 35%;
+            margin: 0 auto;
+            text-align: center;
+            
+        }
+        input{
+            height: 37px;
+            width: 60%;
+            font-weight: bold;
+        }
+        button{
+            height: 35px;
+            width: 60%;
+            border-radius: 7px;
+            background-color: rgb(5, 183, 253);
+            color:  white;
+            font-weight: bold;
+        }
+        .box-2{
+            height: 70px;
+            width: 100%;
+            background-color:  rgb(237, 230, 243);;
+            border: 2px solid black;
+        }
+        .sign{
+            color: blue;
+            font-weight: bold;
+            font-size: 20px;
+            margin-left: 5px;
+        }
+        span{
+            /* margin-left: -27px; */
+        }
+        .pwd{
+            /* height: 30px; */
+            /* border-radius: 1px; */
+            margin-top: 5px;
+        }
+         
+        #sh{
+            position: absolute;
+             /* z-index: 2;  */
+            left: 71%;
+            top: 29%;
+        }
+        .phn{
+            /* position: absolute; */
+            top: 27%;
+            left: 550px;
+            font-size: 14px;
+        }
+        .ps{
+            /* position: absolute; */
+            top: 37%;
+            left: 550px;
+            font-size: 14px;
+        }
+        .Wraper{
+          position: relative;
+          /* border: 1px solid red; */
+          height: 45px;
+        }
+        label{
+            position: absolute;
+            top: 15px;
+            font-size: 15px;
+            font-weight: lighter;
+            color: gray;
+        }
+
+        
+        
+        
+            
+
+        
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="../Instagram-page/IMAGES/Instagram-Logo-2010-2013-500x281.png" height="30%" >
+        <br><br>
+
+        <div class="Wraper">
+            <label for="uname" id="label1">Phone number, username, or email</label>
+            <input id="log" name="uname" oninput="sow()"  type="text" >
+        </div>
+        <!-- <div id="first">
+        <input type="text"  id="phone-num"  oninput="dtu()"     placeholder=" Phone number, username, or email " >
+        </div> -->
+        <br>
+
+        
+         <div class="Wraper">
+            <label for="upass" id="label2">Password</label>
+
+            <input id="pass"  oninput="show()" type="password" placeholder="" >
+            <span id="sh" onclick="handletransform()">Show</span>
+        </div> 
+        <!-- <input type="password" id="show" placeholder="Password"> -->
+        <!-- <span> -->
+            <!-- <i class="fa fa-eye" id="eye" onclick="toggle()"> </i> -->
+            <!-- <i class="fa-solid fa-eye-slash" onclick="toggle2()"  id="hide"></i> -->
+        <!-- </span>  -->
+        <br>
+        <button>Log in</button>
+        <p>_______________OR______________</p>
+        <br>
+        <i class="fa-brands fa-square-facebook"></i> Log-in with facebook
+        
+        <h4>Forgot password?</h4>
+        <br>
+        <div class="box-2">
+            <h3>Dont't have an account?  <span class="sign">Sign up.</span></h3>
+        </div>
+        <div class="box-3">
+            <h2>Get the app</h2>
+            <img src="../Instagram-page/IMAGES/applestore.png" height="50px" >
+            <img src="../Instagram-page/IMAGES/googlestore.png" height="50px">
+        </div>
+    </div>
+    <script>
+
+               function  handletransform() {
+                    let a = document.getElementById("pass");
+                    if(a.type == "password"){
+                        a.type = "text";
+                        document.getElementById("sh").innerText = "Hide";
+                    } else {
+                        document.getElementById("sh").innerText = "Show";
+                        a.type = "password";
+                    }
+                  }
+                 
+
+                function sow() {
+                    if (document.getElementById("log").value !=""
+                    ) {
+                        document.getElementById("label1").style.fontSize = "9px";
+                        document.getElementById("label1").style.top = "7px";
+                        document.getElementById("label1").style.transition ="0.2s";
+                        document.getElementById("label1").style.color="grey";
+                        
+                    }
+                    else{
+                        document.getElementById("label1").style.top ="7px";
+                        document.getElementById("label1").style.fontSize ="13px";
+                    }
+                }
+
+                
+
+                function show(){
+                    if (document.getElementById("pass").value !=""){
+                        document.getElementById("label2").style.fontSize = "13px";
+                        document.getElementById("label2").style.top ="7px";
+                        document.getElementById("label2").style.transition = "0.1s";
+                        document.getElementById("label2").style.color ="grey";
+                        document.getElementById("show").style.display ="block";
+
+
+                    }
+                    else{
+                        document.getElementById("show").style.display="none";
+                        document.getElementById("label2").style.top ="8px";
+                        document.getElementById("label2").style.fontSize="13px";
+                    }
+                       
+                        
+                    }
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            //   function handleusername() {
+            //     if (document.getElementById("pass").value!="") {
+            //         document.getElementById("ph").style.fontSize="2px";
+            //         document.getElementById("ph").style.transition="2s";
+            //         document.getElementById("ph").style.top="1px";
+            //         document.getElementById("sh").style.display="block";
+                    
+            //     } 
+            //     else {
+            //         document.getElementById("ph").style.fontSize="2px";
+            //         document.getElementById("sh").style.display="none";
+            //         document.getElementById("ph").style.top="2px";
+            //     }
+            //   }    
+
+
+
+
+
+
+        
+            
+        
+
+
+
+        
+
+   
+
+
+
+
+
+
+
+
+
+
+                 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        //   function dtu(){
+        //     if(document.getElementById("phone-number").value = ""){
+        //         document.getElementById("uname").style.fontSize = "9px"
+        //         document.getElementById("uname").style.top = "1px";
+        //         document.getElementById("uname").style.transition = "0.1s";
+        //    }
+        //     else{
+        //         document.getElementById("uname").style.top = "8px";
+        //          document.getElementById("uname").style.fontSize = "13px";
+
+        //     }
+            
+        //  }
+
+
+
+
+
+
+
+
+
+
+
+
+        //  function toggle() {
+        //     let a = document.getElementByid("show");
+        //      if (a.type == 'password') {
+        //         a.type = "text";
+        //      } else {
+        //         a.type = "password";
+        //      }
+        //  }
+
+        //  function toggle2() {
+        //     let a = document.getElementById("hide");
+        //     if (a.type == 'password'){
+        //         a.type = "text";
+        //     }else{
+        //         a.type = "password";
+        //     }
+        //  }
+    </script>
+</body>
+</html>
